@@ -35,12 +35,17 @@ Note: `control` must have new line at end of file.
 
 # Step 3: Remove DS_Store file
 In terminal cd to `MyApp` folder
-```find . -name '.DS_Store' -type f -delete```
+
+```
+find . -name '.DS_Store' -type f -delete
+```
 
 # Step 4: Build .deb file
 In terminal cd to `MyApp` folder
 
-```dpkg-deb -Zgzip -b MyApp```
+```
+dpkg-deb -Zgzip -b MyApp
+```
 
 # Step 5: Install .deb file
 - Use `Filza` and `Airdrop` to install `MyApp.deb` file

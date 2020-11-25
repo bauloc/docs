@@ -8,5 +8,7 @@ https://stackoverflow.com/a/29650369
 
 # SAMPLE CODE
 `lipo -info ISPORTSDK`
+
 `lipo -remove arm64 ISPORTSDK -o ISPORTSDK`
+
 `lipo -create -output "ISPORTSDK" "ISPORTSDK.framework/ISPORTSDK" "sim-ISPORTSDK.framework/ISPORTSDK"`
